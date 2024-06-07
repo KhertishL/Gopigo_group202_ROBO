@@ -17,6 +17,7 @@ time.sleep(2)
 
 try:
     while True:
+        print("Test")
         GPIO.output(TRIG, True)
         time.sleep(0.00001)
         GPIO.output(TRIG, False)
@@ -43,4 +44,3 @@ try:
 
 except KeyboardInterrupt:
     GPIO.cleanup()
-
