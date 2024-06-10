@@ -1,0 +1,7 @@
+<!-- ~/catkin_ws/src/gopigo3_ultrasound/launch/ultrasound_sensors.launch -->
+<launch>
+    <node name="front_sensor_node" pkg="gopigo3_ultrasound" type="front_sensor_node.py" output="screen"/>
+    <node name="left_sensor_node" pkg="gopigo3_ultrasound" type="left_sensor_node.py" output="screen"/>
+    <node name="right_sensor_node" pkg="gopigo3_ultrasound" type="right_sensor_node.py" output="screen"/>
+    <node name="control_node" pkg="gopigo3_ultrasound" type="control_node.py" output="screen"/>
+</launch>
