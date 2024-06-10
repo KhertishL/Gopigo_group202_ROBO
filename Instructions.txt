@@ -1,0 +1,16 @@
+1. Save the ultrasound sensor and control node python scripts in specified path
+
+2.Run the following commands
+    chmod +x ~/catkin_ws/src/gopigo3_ultrasound/src/ultrasonic_sensor.py
+    chmod +x ~/catkin_ws/src/gopigo3_ultrasound/src/front_sensor_node.py
+    chmod +x ~/catkin_ws/src/gopigo3_ultrasound/src/left_sensor_node.py
+    chmod +x ~/catkin_ws/src/gopigo3_ultrasound/src/right_sensor_node.py
+    chmod +x ~/catkin_ws/src/gopigo3_ultrasound/src/control_node.py
+
+3. Run the command <roslaunch gopigo3_ultrasound ultrasound_sensors.launch>
+
+
+
+
+
+
