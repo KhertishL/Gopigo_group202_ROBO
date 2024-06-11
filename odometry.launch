@@ -1,0 +1,4 @@
+<!-- ~/catkin_ws/src/gopigo3_odometry/launch/odometry.launch -->
+<launch>
+    <node name="odometry_node" pkg="gopigo3_odometry" type="odometry_node.py" output="screen"/>
+</launch>
