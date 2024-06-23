@@ -118,7 +118,7 @@ abs(angle): Takes the absolute value of the angle to ensure a positive duration,
 
 #### 4. Main loop main function
 ```
-f distances[1] > 200:  # Arbitrary distance condition
+if distances[1] > 200:  # Arbitrary distance condition
                 stop_robot(pub)
                 break
 
