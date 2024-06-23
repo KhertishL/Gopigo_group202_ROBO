@@ -1,1 +1,1 @@
-# All content found in master branch
+# All contents found in master branch
