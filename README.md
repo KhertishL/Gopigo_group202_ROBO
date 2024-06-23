@@ -4,31 +4,30 @@ This ROS package provides a differential drive controller for the GoPiGo3 robot 
 
 ## Installation
 1. Clone this repository into your catkin workspace
-'''
+```
 cd ~/catkin_ws/src
 git clone https://github.com/KhertishL/Gopigo_group202_ROBO.git
-'''
+```
 
 3. Build the package:
    
-'''
+```
 cd ~/catkin_ws
 catkin_make
-
-'''
+```
 
 3.Source the setup file:
 
-'''
+```
 source devel/setup.bash
-'''
+```
 
 4.Launching Differential Drive Controller
 To launch the differential drive controller, use roslaunch:
-'roslaunch gopigo3_bringup driver_differential.launch'
+`roslaunch gopigo3_bringup driver_differential.launch`
 
 5.Running main code
-'rosrun gopigo3_ultrasound drive2.py'
+`rosrun gopigo3_ultrasound drive2.py`
 
 ## Notes
 Ensure the GoPiGo3 robot is properly connected and powered on before running the launch files and scripts.
